@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: yellow;
+    height: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+footer {
+    background-color: yellow;
+    height: 200px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+main {
+    background-color: red;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left > div {
+    height: 100px;
+}
+
+.widget1 {
+    background-color: pink;
+}
+
+.widget2 {
+    background-color: brown;
+}
+
+.widget3 {
+    background-color: green;
+}
+
+.left {
+    background-color: blue;
+
+    width: 25%;
+    float: left;
+}
+.right {
+    background-color: blue;
+    height: 100px;
+    width:25%;
+    float: left;
+}
+section {
+    background-color: #33ccff;
+    height:650px;
+    width: 40%;
+    float: left;
+    margin: 0 5%;
+}
